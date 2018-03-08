@@ -4,7 +4,12 @@ import com.myEnum._interface.Product;
 
 public enum Food implements Product {
 	
-	Sandwich(100),Noodle(12);
+	Sandwich(100),Noodle(12){
+		@Override
+		public int getPrice() {
+			return super.getPrice() + 1;
+		}
+	};
 	
 	private int price;
 	
