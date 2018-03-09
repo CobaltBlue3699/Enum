@@ -4,7 +4,7 @@ import com.myEnum._interface.Product;
 
 public enum Game implements Product {
 	
-	HeartStone(100),DarkSoul(500);
+	HearthStone(100),DarkSoul(500);
 	
 	private int price;
 	

@@ -17,7 +17,7 @@ public class TestMyEnum {
 	public static void main(String[] args) {
 		printPrice(Food.class);
 		printPrice(Game.class);
-		printPrice(Game.HeartStone);
+		printPrice(Game.HearthStone);
 	}
 
 }
